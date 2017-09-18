@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  sharedev.blog.webapi:
+    image: sharedev.blog.webapi
+    build:
+      context: ./ShareDev.Blog.WebApi
+      dockerfile: Dockerfile
